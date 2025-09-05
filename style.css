@@ -80,7 +80,6 @@ main {
   align-items: center;   /* ✅ centers image vertically with text */
 }
 
-
 .about-image {
   flex: 0 0 250px;            /* Fixed width for image column */
 }
