@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Nav Bar */
+  nav {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav .logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #f4b400;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  .about h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  .about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+  
+  /* Brands Section */
+  .brands {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .brands h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .brand-logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .brand-logos img {
+    max-width: 120px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .brand-logos img:hover {
+    opacity: 1;
+  }
+
+  /* Logo */
+nav .logo img {
+    height: 10vh;   /* 5% of the viewport height */
+    width: auto;   /* keep aspect ratio */
+    max-height: 100px; /* optional cap so it never gets too big */
+    display: block;
+  }
+  
+/* Nav Bar */
+nav {
+    background: #fff;   /* white background */
+    color: #000;        /* default text color black */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #ddd; /* subtle divider */
+  }
+
+  /* Logo container */
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* space between logo and text */
+  }
+  
+nav .logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;       /* matches black text in white nav bar */
+   }
+
+   nav ul li a {
+    color: #000;            /* black links */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+  }
+  
+  nav ul li a:hover {
+    color: #f4b400;         /* gold on hover */
+  }
+
+  .brand-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    max-width: 900px;   /* keeps them centered and tidy */
+    margin: 0 auto;
+  }
+  
+  .brand-logos img {
+    width: 100%;        /* let them grow inside their grid cell */
+    max-width: 180px;   /* prevents them from becoming too large */
+    height: auto;
+    opacity: 0.9;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .brand-logos img:hover {
+    opacity: 1;
+    transform: scale(1.05); /* slight zoom on hover */
+  }
+  
+  
+  
